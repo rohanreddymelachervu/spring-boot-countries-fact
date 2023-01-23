@@ -12,13 +12,13 @@ Endpoins and methods:
 returns JSON of the countries list 
 
 (GET) /country//{name}
-return JSON of the country with name given
+returns JSON of the country with name given
 
 (GET) /filter/{region}
 returns JSON of countries filtered by region
 
 (GET) /sort
-return JSON of countries sorted in ascending order
+returns JSON of countries sorted in ascending order
 
 (GET) /paginate?page="x"
 returns "x" page of the JSON countries list
